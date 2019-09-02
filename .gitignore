@@ -1,3 +1,8 @@
+# Dataset
+train.txt
+test.txt
+final_test.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
