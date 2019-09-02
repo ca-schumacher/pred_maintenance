@@ -18,8 +18,16 @@ A. Saxena and K. Goebel (2008). "PHM08 Challenge Data Set", NASA Ames Prognostic
 
 
 
-## Approach
+## Background
+The remaining uselful life (RUL) denotes the lifespan of an operating system from its current condition until failure. This can be expressed in time (e.g. hours), miles, cycles etc. There are generally three approaches to predict the RUL, depending of which data is existent from previous failures of the same system type (other similar turbofan engines):
+1. Survival model, if only data from the failure of previous systems exists,
+2. Degradation model, if thresholds define the safe operation of the system,
+3. Similarity model, if continous data about of the operation of the system (including its degradation) exsits (run-to-failure data).
 
+The Survival model uses the probability of the occurance of failure in previous systems to estimate the RUL. The Degradation model uses the past information to predict when the system will pass the safety threshold. Finally, the similarity model uses the histories of previous run-to-failure data for predicting RUL.
+
+
+## Approach
 
 ## Results and Conclusions
 
